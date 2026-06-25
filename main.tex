@@ -1,0 +1,362 @@
+\documentclass[
+	a4paper,
+	% showframes,
+	% vline=2.2em,
+	%maincolor=cvgreen,
+	sidecolor=gray!50,
+	sectioncolor=materialblue,
+	subsectioncolor=materialindigo,
+	% itemtextcolor=black!80,
+	% sidebarwidth=0.4\paperwidth,
+	% topbottommargin=0.03\paperheight,
+	% leftrightmargin=20pt,
+	profilepicsize=3.5cm,
+	% profilepicborderwidth=3.5pt,
+	profilepicstyle=profilecircle,
+	profilepiczoom=1.1,
+	% profilepicxshift=0mm,
+	% profilepicyshift=0mm,
+	% profilepicrounding=1.0cm,
+	% logowidth=4.5cm,
+	% logospace=5mm,
+	% logoposition=before,
+]{sixtysecondscv}
+\usepackage{microtype}
+\usepackage{ragged2e}
+
+\ifxetexorluatex
+	\usepackage{fontspec}
+	\defaultfontfeatures{Ligatures=TeX}
+
+\else
+	\usepackage[utf8]{inputenc}
+	\usepackage[T1]{fontenc}
+%	\usepackage[sfdefault]{noto} % use noto google font
+\fi
+
+\usepackage{amssymb}
+
+\usepackage{smartdiagram}
+\smartdiagramset{
+	% default font size is \large, so adjust to harmonize with sidebar layout
+	bubble center node font = \footnotesize,
+	bubble node font = \footnotesize,
+	% default: 4cm/2.5cm; make minimum diameter relative to sidebar size
+	bubble center node size = 0.4\sidebartextwidth,
+	bubble node size = 0.25\sidebartextwidth,
+	distance center/other bubbles = 1.5em,
+	% set center bubble color
+	bubble center node color = maincolor!70,
+	% define the list of colors usable in the diagram
+	set color list = {materiallime, materialamber,
+	materialcyan, materialblue, materialindigo},
+	% sets the opacity at which the bubbles are shown
+	bubble fill opacity = 0.8,
+}
+\cvname{Dr Shashirekha G}
+\cvjobtitle{\normalsize Research Associate, IIT Bhilai\\
+\normalsize Ph.D. in Mathematics (Algebraic Coding Theory)}
+
+\write18{wget https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/64/Germany.png}
+\write18{wget https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/64/France.png}
+\write18{wget https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/64/Spain.png}
+\write18{wget https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/64/United-States.png}
+\write18{wget https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/64/Russia.png}
+\write18{wget https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/64/Switzerland.png}
+\write18{wget https://ipfs.io/ipfs/Shashi?filename=Shashi.png}
+
+
+\cvprofilepic{shas.jpg}
+
+\cvaddress{Manipal Institute of Technology, Manipal, Karnataka 576104}
+% phone number
+\cvphone{+91-7259183888}
+% skype ID
+%\cvskype{live:.cid.d653a434e1c74452}
+% personal website
+%\cvsite{https://laguer.github.io/sixtysecondscv/}
+% email address
+\cvmail{shashirekha842@gmail.com}
+\cvcustomdata{\faFlag}{Indian}
+\addtofrontsidebar{
+	\graphicspath{{pics/flags/shiny/}}
+    \vspace{10mm}	
+ \profilesection{Research Interests}
+\begin{itemize}
+    \item {Algebraic Coding Theory}
+    \item {Finite Fields}
+    \item {Algebra}
+\end{itemize}
+\vspace{10mm}	
+\profilesection{Social Network}
+\begin{icontable}{2.5em}{1em}
+\social{\faGlobe}
+		{https://orcid.org/0009-0004-4597-5124}
+		{orcid.org/0009-0004-4597-5124}\\
+	\social{\faGraduationCap}
+		{https://scholar.google.com/citations?user=zIgbYMEAAAAJ}
+		{Google Scholar: Shashirekha G.}     \\   
+
+        \social{\faGlobe}
+		{https://www.researchgate.net/profile/Shashirekha-G}
+		{researchgate.net/profile/Shashirekha-G}\\
+        
+	\social{\faLinkedin}
+		{https://www.linkedin.com/in/shashi888}
+		{linkedin.com/in/shashi888}
+
+%	\social{\faGithub}
+%		{https://github.com/YourGitHub}
+%		{github.com/YourGitHub}
+\end{icontable}    \\
+\vspace{10mm}	
+	\profilesection{Memberships}
+	\begin{itemize}
+            \item  Free Graduate Student Member in SAIM from  Jan 01 -- Dec 12, 2024.
+	    \item Life member of Cryptology  Research\\
+    Society of India(CRSI).
+      \item Member of European Women
+    in \\ Mathematics (EWM)
+	\end{itemize}
+
+ 
+  
+}
+%-------------------------------------------------------------------------------
+%                              SIDEBAR 2nd PAGE
+%-------------------------------------------------------------------------------
+\addtobacksidebar{
+
+\vspace{6mm}	
+  \profilesection{Computer Skills}
+\begin{itemize}
+    \item {MS-Office}
+    \item {Python}
+    \item {LATEX}
+%    \item{MATLAB}
+\end{itemize}
+
+\vspace{10mm}	
+	\profilesection{Languages}
+	  \pointskill{}{English}{5}
+	  \pointskill{}{Kannada}{5}
+    \pointskill{}{Telugu}{4}
+     \pointskill{}{Hindi}{3}
+    %\pointskill{\flag{Russia.png}}{Russia}{5}
+    
+ \vspace{10mm}	 
+	\profilesection{Hobbies}
+	
+	\barskill{\faImage}{Playing Chess}{75}
+	\barskill{\faMusic}{Listening Music}{60}
+ \barskill{\faSkyatlas}{Playing Badminton}{50}
+
+
+}
+\begin{document}
+
+\makefrontsidebar
+
+\cvsection{Working Experience}
+\begin{cvtable}[3]
+    \cvitem{2025 -- Present}{Research Associate}{IIT Bhilai}{Working in Post Quantum Cryptography.}
+	\cvitem{2021 -- 2025}{Research Scholar}{MIT, Manipal}{Department of Mathematics, Manipal Institute of Technology, MAHE, Manipal.}
+        \cvitem{2019 -- 2021}{Subject Matter Expert (SME)}{}{Chegg India and Doubtnut.}
+\end{cvtable}
+
+
+\cvsection{Education}
+%\cvsubsection{Postgraduate Training}
+\begin{cvtable}[1.5]
+\cvitem{2021 -- 2025}{Ph.D. in Mathematics}{MIT Manipal, MAHE}{Department of Mathematics, Manipal, Karnataka, India. \newline Thesis Title: “Construction and 
+Structural Properties of Various Types of Cyclic Codes Over Finite Rings.”}
+	\cvitem{2017 -- 2019}{M.Sc. in Mathematics}{University of Mysore}{Department of Mathematics, Manasagangothri, Mysore, Karnataka, India.}
+	\cvitem{2014 -- 2017}{B.Sc. in PMCS}{Akkamahadevi Women’s University}{Smt. Allum Sumangalamma Memorial College for Women, Ballari, Karnataka, India.}
+	\cvitem{2012 -- 2014}{PUC}{Board of Pre-University}{VKJ PU College, Siruguppa, Ballari, Karnataka, India.}
+	\cvitem{2011 -- 2012}{SSLC}{Board of Secondary Education}{Shanthinikethana Vidyamandira, Siruguppa, Ballari, Karnataka, India.}
+\end{cvtable}
+
+\cvsection{Research Papers}
+\vspace{2mm}
+\begin{cvtable}
+
+\cvpubitem{\(\mathbb{Z}_2\mathbb{Z}_2[u]\mathbb{Z}_2[u]\)-Additive Complementary Codes}{DMAA}
+{Published a paper titled \textit{“\(\mathbb{Z}_2\mathbb{Z}_2[u]\mathbb{Z}_2[u]\)-Additive Complementary Codes”} in \textit{Discrete Mathematics, Algorithms and Applications}. https://doi.org/10.1142/S1793830926500370.}{2026}\\
+
+\cvpubitem{Double Cyclic and Quantum Codes}{BSPM}
+{Published a paper titled \textit{“Double Cyclic and Quantum Codes”} in \textit{Boletim da Sociedade Paranaense de Matemática}. https://doi.org/10.5269/bspm.78664.}{2026}
+
+\cvpubitem{\(\mathbb{Z}_2[u]\mathbb{Z}_2[u]\)-Additive Codes}{DMAA}
+{Published a paper titled \textit{“\(\mathbb{Z}_2[u]\mathbb{Z}_2[u]\)-Additive Codes”} in \textit{Discrete Mathematics, Algorithms and Applications}, Vol. 16, No. 08, 2350101.2024.}{2024}
+
+\cvpubitem{\(\mathbb{Z}_2^r \mathbb{Z}_2^s[u]\)-Double Cyclic Codes}{In press}
+{G. Shashirekha, G. R. Vadiraja Bhatta, and Prasanna Poojary. Paper titled \textit{“\(\mathbb{Z}_2^r \mathbb{Z}_2^s[u]\)-Double Cyclic Codes”} has been \textbf{accepted} for publication in \textit{Palestine Journal of Mathematics}.}{2025}\\
+
+\cvpubitem{On the Structure and Decomposition of Quasi-Cyclic and Skew-Cyclic Codes}{communicated}
+{G. Shashirekha, G. R. Vadiraja Bhatta, Md Ajaharul Hossain, Ravivarma B., and Saheb Navghare. Work titled \textit{“On the Structure and Decomposition of Quasi-Cyclic and Skew-Cyclic Codes”}. Under review.}{2025}
+
+\end{cvtable}
+\newpage
+\cvsection{Achievements}
+\vspace{2mm}
+\begin{cvtable}
+\cvpubitem{AESIM 2025 Summer School on Algebraic Coding Theory, Cryptology and Its Applications}{Karamanoğlu Mehmetbey University, Karaman, Türkiye}
+{Selected to participate in the Summer School on \textit{Algebraic Coding Theory, Cryptology and Its Applications}, organized by Karamanoğlu Mehmetbey University, Karaman, Türkiye, to be held from June 16–24, 2025.}{2025}\\
+
+\cvpubitem{Construction and Structural Properties of Various Types of Cyclic Codes over Finite Rings}{MRC 2025}
+{Presented a poster titled \textit{“Construction and Structural Properties of Various Types of Cyclic Codes over Finite Rings”} at the \textit{Manipal Research Colloquium} (MRC 2025), held from April 28–30, 2025, at Dr. T.M.A. Pai Hall, KMC Manipal.}{2025}\\
+
+\cvpubitem{On the Structure of Additive Cyclic Codes}{Mathematics Research Symposium 2025}
+{Presented a paper titled \textit{“On the Structure of Additive Cyclic Codes”} at the 2\textsuperscript{nd} \textit{Mathematics Research Symposium}, held at MIT, Manipal, on February 7–8, 2025.}{2025}\\
+
+
+\cvpubitem{\(\mathbb{Z}_2\mathbb{Z}_2(u)\mathbb{Z}_2(u)\)-Additive Codes}{IWATM-2024}
+{Presented a paper titled \textit{“\(\mathbb{Z}_2\mathbb{Z}_2(u)\mathbb{Z}_2(u)\)-Additive Codes”} at the Third International Workshop on Advanced Topics in Mathematics (IWATM-2024), organized by the Centre for Applied Mathematics, IIIT Naya Raipur, held from December 16–20, 2024.}{2024}\\
+
+
+\cvpubitem{KSET-2024}{Karnataka State Eligibility Test}
+{Qualified in Mathematics, conducted by the Government of Karnataka.}{2024}\\
+
+
+
+
+\cvpubitem{GATE-2023}{Graduate Aptitude Test in Engineering}
+		{Qualified -- Progress in Mathematics.}{2023}\\
+
+  \cvpubitem{$Z_2Z_2[u]Z_2[u]$- ADDITIVE CYCLIC CODES}{ICDMC-2023}
+{Presented a paper entitled \textit{“ \(\mathbb{Z}_2\mathbb{Z}_2[u]\mathbb{Z}_2[u]\)-ADDITIVE CYCLIC CODES ”}in International Conference on Discrete Mathematics and Combinatorics at MIT Bengaluru, Karnataka, India from Dec 20-22, 2023}{2023}\\
+
+    \cvpubitem{New Linear Codes from Gray Images of Cyclic Codes}{Ramanujan Mathematical Society}
+        {Presented paper  \textit{“New Linear Codes from Gray Images of Cyclic Codes”} at Ramanujan Mathematical Society's 37th Annual Conference, SSN College of Engineering, Chennai, Dec 6 -- 8, 2022}{2022}\\
+
+\cvpubitem{Quiz Competition}{National Students' Union of India (NSUI)}
+{Participated in a quiz competition on the 72nd Birth Anniversary of Shri Rajiv Gandhi Ji, organized by NSUI, Ballari, August 20.}{2016}        
+\end{cvtable}
+
+\makebacksidebar
+ \newgeometry{
+ 	top=\topbottommargin,
+ 	bottom=\topbottommargin,
+ 	right=\leftrightmargin,
+ 	left=\leftrightmargin
+ }
+ \cvsection{Invited Talks}
+\vspace{2mm}
+\begin{cvtable}
+
+\cvpubitem{Alumni Talk Series}{MIT, Manipal}
+{Invited to deliver a talk titled \textit{“From MSc to Research: Navigating the Path to PhD and Beyond”}, organized by the School of Basic Sciences, Humanities and Management, Manipal Institute of Technology (MIT), Manipal. Conducted in online mode.}{2026}
+
+\end{cvtable}
+\cvsection{Workshops and conferences}
+\vspace{2mm}
+\begin{cvtable}\cvpubitem{National Instructional Workshop on Cryptology (NIWC 2025)}{Cryptology}
+{Attended the National Instructional Workshop on Cryptology held at IIITDM Kurnool, India \\from November 24--27.}{2025}\\
+
+
+\cvpubitem{Applied Number Theory}{CIMPA School}
+{Participated in the CIMPA School on Applied Number Theory\\
+held at the University of Education, Ho Chi Minh City, Vietnam\\
+from June 3--14.}{2024}\\
+
+\cvpubitem{Finite Geometry and Coding Theory}{CIMPA-NCM School}
+{Participated in the CIMPA–NCM School on Finite Geometry and Coding Theory\\
+held at the Indian Institute of Technology Hyderabad, Telangana, India from November 20--December 1.}{2023}\\
+       
+\cvpubitem{Advanced Topics in Finite Fields}{ATM School}
+{Attended the Advanced Training in Mathematics workshop\\
+on Advanced Topics in Finite Fields, held at IMSc, Chennai, India\\
+from July 10--29.}{2023}\\
+        
+    \cvpubitem{National Instructional Workshop on Cryptology (NIWC 2023)}{Code-based Cryptology}
+{Attended the National Instructional Workshop on Code-based Cryptology held at IIT (BHU), Varanasi, India from July 5--7, gaining insights into code-based techniques.}{2023}\\
+
+\cvpubitem{Algebraic Codes and MAGMA Computation}{IIT Patna}
+{Participated in the online workshop “Algebraic Codes and MAGMA Computation” organized by the Department of Mathematics, IIT Patna, from November 10--11.}{2023}\\
+
+        \cvpubitem{Algorithms for Cooperative TU Games}{MIT, Manipal}
+{Registered for the International Workshop on Algorithms for Cooperative TU Games using Matrices and Graphs, held at MIT Manipal, Karnataka, India from December 20--31.}{2021}\\
+
+  \cvpubitem{INDOCRYPT -- 2021}{LNM Institute of Information Technology}
+        {Actively participated in the 22nd International Conference on Cryptology in India held at the LNM Institute of Information Technology, Jaipur during December 13 -- 15.}{2021}\\ 
+        
+\cvpubitem{Basic Statistics and Its Application Using SPSS}{Two-Day Workshop}
+{Participated in a workshop on ``Basic Statistics and Its Application Using SPSS'' organized by the Human Development and Welfare Association and the Nutrition Society, University of Mysore, August 20--21.}{2018}\\
+
+\cvpubitem{Impact of Science and Technology on Society and Economy}{KSTA National Conference}
+{Attended the KSTA National Conference on ``Impact of Science and Technology on Society and Economy'' jointly organized by the Karnataka Science and Technology Academy (KSTA), Department of Science \& Technology, Government of Karnataka, and Vijayanagara Sri Krishnadevaraya University, Ballari, India from March 8--9.}{2017}\\   
+\end{cvtable}
+\begin{cvtable}
+
+\cvpubitem{Bhaskara II \& His Works}{One-Day Workshop}
+{Attended a workshop on ``Bhaskara II \& His Works'' organized by Smt. A.S.M. College for Women, and the Indian Association of Physics Teachers, held at Ballari, February 14.}{2015}     
+\end{cvtable}
+
+\cvsection{Programs}
+\vspace{2mm}
+\begin{cvtable}
+\cvpubitem{Manipal Research Colloquium (MRC)}{MAHE, Manipal}
+{Presented a poster titled \textit{“Construction and Structural Properties of Various Types of Cyclic Codes Over Finite Rings”} in the Mandatory Ph.D. Presentation category during the Manipal Research Colloquium held from April 28--30.}{2025}\\
+
+\end{cvtable}
+\begin{cvtable}
+
+\cvpubitem{2nd Mathematics Research Symposium (MaRS 2025)}{MIT, Manipal}
+{Delivered a talk titled \textit{“On the Structure of Additive Cyclic Codes”} at the 2nd Mathematics Research Symposium held at Manipal Institute of Technology, MAHE, from February 7--8.}{2025}\\
+
+\cvpubitem{Internship}{Internship Program}
+{Participated in a one-month Internship Program under Dr. Ramakrishna Bandi\\
+at IIIT Naya Raipur, Chhattisgarh, India, from Jan 27 - Feb 27.}{2024}\\
+        
+\cvpubitem{Scientific Language}{Faculty Development Program}
+{Participated in a one-week Faculty Development Program on "Scientific Language"\\
+organized by the Department of Mathematics, School of Basic Sciences,\\
+The Assam Kaziranga University, Jorhat, Assam, India, from April 26--May 2.}{2023}\\
+
+\cvpubitem{Applications of Mathematics in Recent Times}{National Webinar}
+{Participated in the National Webinar on "Applications of Mathematics in Recent Times"\\
+held on June 19, organized by the Department of Mathematics,\\
+Ghatal Rabindra Satabarsiki Mahavidyalaya, Ghatal, Paschim Medinipur, West Bengal, India.}{2023}\\
+
+\cvpubitem{Python Programming}{MIT, Manipal}
+{Attended the course “Python Programming” held from June 27--July 3,\\
+organized by MAHE–Student Research Forum under the aegis of\\
+Directorate of Research, MAHE, Manipal Institute of Technology, Manipal, Karnataka, India.}{2022}\\
+\end{cvtable}
+
+
+\cvsection{Certifications \& Online Courses}
+\vspace{2mm}
+\begin{cvtable}
+
+\cvpubitem{Cryptography: Learn Public Key Infrastructure from Scratch}{Coursera}
+{Completed an online non-credit course authorized by Packt and offered through Coursera.}{2025}\\
+
+
+\cvpubitem{Quantum Computing (One-Month Course)}{CDAC Hyderabad \& IIT Roorkee}
+{Completed a one-month course on Quantum Computing organized by the Centre for Development of Advanced Computing, Hyderabad, and the Indian Institute of Technology, Roorkee, with support from the Ministry of Electronics and Information Technology, Government of India.}{2025}\\
+
+\cvpubitem{Quantum Computing for Everyone – An Introduction}{Coursera}
+{Completed an online non-credit course authorized by Fractal Analytics and offered through Coursera.}{2025}\\
+
+\cvpubitem{Mathematical Foundations and Quantum Mechanics Essentials}{Coursera}
+{Completed an online non-credit course authorized by Packt and offered through Coursera.}{2025}\\
+\end{cvtable}
+\begin{cvtable}
+\cvpubitem{Python Programming for Quantum Computing}{Coursera}
+{Completed an online non-credit course authorized by Packt and offered through Coursera.}{2025}\\
+
+\cvpubitem{Quantum Computing with Qiskit and Advanced Algorithms}{Coursera}
+{Completed an online non-credit course authorized by Packt and offered through Coursera. Covered Qiskit usage and advanced quantum algorithms.}{2025}\\
+
+\cvpubitem{Programming for Everybody (Getting Started with Python)}{Coursera}
+{Completed an online non-credit course authorized by the University of Michigan and taught by Dr. Charles Severance. Introduced Python programming fundamentals.}{2023}\\
+
+\cvpubitem{Cryptography}{Coursera}
+{Completed an online non-credit course authorized by the University of Maryland and taught by Prof. Jonathan Katz. Covered foundational topics in cryptography.}{2022}\\
+
+\end{cvtable}
+
+\cvsignature  \watermark.
+
+\end{document}
